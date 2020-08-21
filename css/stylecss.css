@@ -1,0 +1,30 @@
+#css{
+  border: solid ;
+  
+  margin-left: 5em ;
+  border-radius: 2em;
+  margin-top: 2em;
+  background-color: aliceblue;
+  box-shadow: 5px 10px;
+ width: 25%;
+      
+
+}
+#text1{
+  opacity:0;
+}
+.inp{
+  opacity:0;
+}
+#1v {
+  margin-left:-300px;
+  max-width:100%;
+ }
+ #2v {
+  margin-left:-300px;
+  max-width:100%;
+ }
+ #3v {
+  margin-left:-300px;
+  max-width:100%;
+ }

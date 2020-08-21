@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+	<title>TripyTripy</title>
+	
+	<link rel="stylesheet" href="css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="css/font-awesome.min.css"/>
+	<link rel="stylesheet" href="css/slicknav.min.css"/>
+	<link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/flaticon.css">
+		<link rel="stylesheet" href="css/style1.css">
+
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  	<link href="https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap" rel="stylesheet">
+  	<link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+  	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
+	
+
+</head>
+<body>
+
+	<header class="header-section" >
+		<a href="index.html" class="site-logo">
+			<h3 id="head">TripyTripy</h3>
+		</a>
+		<nav class="header-nav">
+			<ul class="main-menu">
+				<li><a href="index.html" class="active">Home</a></li>
+				<li><a href="flight.html">Flights</a></li>
+				<li><a href="hotel.html">Restraunt</a></li>
+				<li><a href="train.html">Trains</a></li>
+				<li><a></a></li>
+				<li><a></a></li>
+				<li><a href="#">Signup</a></li>
+				<li><a href="#">login</a></li>
+			</ul>
+	</header>
+
+	<section class="page-top-section set-bg" data-setbg="img/feature-3.jpg">
+		<div class="container">
+			<h2>Trains</h2>
+			<nav class="site-breadcrumb">
+				<a class="sb-item" href="index.html"></a>
+				<span class="sb-item active"></span>
+			</nav>
+		</div>
+	</section>
+	
+	<section class="about-section spad">
+		<div class="container">
+			<div class="row mb-5">
+					<div class="SA" id="Sa">
+							<input type="text" name="origin" placeholder="Enter Train Number" class="ip" id="text1">
+						<button class="button" onclick="ABC()">Check Routes</button>
+						<br>
+					</div>
+					</div>
+					<div class="div2">
+					<h1 id="res" style="color: red;font-family: 'Permanent Marker', cursive; display: none;" align="center">Results</h1>
+					<table id="table" style="display: none;background-color: white;" align="center" >
+							<tr style="border: solid ; border-radius: 2px; padding: 2px;">
+								<th>Train Number</th>
+								<th>Name</th>
+								<th>Route Details</th>
+								<th>Classes</th>
+								<th>Running Days</th>
+							</tr>
+						</table>
+					</div>
+					
+			
+					<script src="api-js/train.js"></script>
+			
+		</div>
+	</section>
+	
+
+	<footer>
+		<div class="container">
+				<div class="row">
+						<div class="col-md-12">
+								<div class="primary-button">
+										<a href="#" class="scroll-top">Back To Top</a>
+								</div>
+			<div class="col-md-12">
+								<ul class="social-icons">
+										<li><a href="https://www.facebook.com"><i class="fa fa-facebook"></i></a></li>
+										<li><a href="https://www.twitter.com"><i class="fa fa-twitter"></i></a></li>
+										<li><a href="https://www.instagram.com"><i class="fa fa-instagram"></i></a></li>
+										<li><a href="https://www.youtube.com"><i class="fa fa-youtube"></i></a></li>
+										
+								</ul>
+						</div>
+					
+				</div>
+		</div>
+
+</footer>
+	
+	
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.slicknav.min.js"></script>
+	<script src="js/jquery-ui.min.js"></script>
+	<script src="js/main.js"></script>
+	<script src="js/jquery.animateNumber.min.js"></script>
+	<script src="js/main1.js"></script>
+	<script src="api-js/restraunt.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  	<script src="js/jquery.animateNumber.min.js"></script>
+	
+	</body>
+</html>
